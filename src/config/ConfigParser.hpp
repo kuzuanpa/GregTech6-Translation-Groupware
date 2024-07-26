@@ -8,8 +8,8 @@
 #include <sstream>
 
 // clang-format off
-#include <ryml/ryml_std.hpp>
-#include <ryml/ryml.hpp>
+#include <ryml_std.hpp>
+#include <ryml.hpp>
 // clang-format on
 
 #include "../generator/DictGenerator.hpp"

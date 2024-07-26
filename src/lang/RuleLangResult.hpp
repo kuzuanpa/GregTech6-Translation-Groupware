@@ -17,7 +17,7 @@ private:
   vector<shared_ptr<ILangResult>> _subs;
   mutable LangListPointer _result = nullptr;
 
-  LangListPointer RuleLangResult::_generate() const;
+  LangListPointer _generate() const;
 
 public:
   RuleLangResult(shared_ptr<IGeneratorMeta> meta, shared_ptr<Rule> rule,

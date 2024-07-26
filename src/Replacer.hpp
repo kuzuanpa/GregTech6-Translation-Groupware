@@ -6,6 +6,7 @@
 #include <exception>
 #include <map>
 #include <unordered_map>
+#include <fstream>
 
 #include "config/Config.hpp"
 #include "lang/LangFile.hpp"

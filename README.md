@@ -7,9 +7,18 @@ Next-stage translation works of Gregtech6-Chinese-Translation
 1. install MSVC compiler (C++11 Required)
 2. install vcpkg
 3. set env VCPKG_DEFAULT_TRIPLET, VCPKG_ROOT
-4. install dependencies: ryml, boost_filesystem, boost_program_options, {fmt}
+4. install dependencies: ryml(0.3.0), boost_filesystem, boost_program_options, {fmt} (latest)
 5. using CMake for compilation
-6. run GT6TG.exe
+6. run GT6TG.exe (typical command: ./GT6TG --workplace ./workplace --config workplace/config.yml)
+
+## Options
+--language lang
+--workplace workdir
+--config config
+--source main extra
+--target main extra
+--extensions extensions
+--remove remove redundant fallback
 
 ## License
 
