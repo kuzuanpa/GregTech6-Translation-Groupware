@@ -13,11 +13,17 @@ Next-stage translation works of Gregtech6-Chinese-Translation
 
 ## Options
 --language lang
+
 --workplace workdir
+
 --config config
+
 --source main extra
+
 --target main extra
+
 --extensions extensions
+
 --remove remove redundant fallback
 
 ## License
