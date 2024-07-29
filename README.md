@@ -11,7 +11,15 @@ Next-stage translation works of Gregtech6-Chinese-Translation
 5. using CMake for compilation
 6. run GT6TG.exe (typical command: ./GT6TG --workplace ./workplace --config workplace/config.yml)
 
+Dependencies Download:  
+ryml(0.3.0): <https://github.com/biojppm/rapidyaml/releases/tag/v0.3.0>
+fmt: <https://github.com/fmtlib/fmt/releases>
+
+boost: Find packages for your system distribution
+    debian: `sudo apt install libboost-filesystem-dev libboost-program-options-dev`
+
 ## Options
+
 --language lang
 
 --workplace workdir
